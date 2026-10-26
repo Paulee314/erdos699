@@ -1,0 +1,9 @@
+(1) class characterisation mismatches: 0
+(2) N0=200 J=40 counter: generated 0, brute 0, missing 0, extra 0
+(2) N0=500 J=60 counter: generated 0, brute 0, missing 0, extra 0
+(2) N0=300 J=50 strict: generated 9, brute 9, missing 0, extra 0
+(2) N0=1000 J=120 strict: generated 9, brute 9, missing 0, extra 0
+(2) N0=5000 J=300 counter: generated 0, brute 0, missing 0, extra 0
+(3) strict, N0=21, J=200, i<=20: [(28, 3, 14), (244, 3, 122), (28, 5, 14)]
+(3) strict, N0=21, J=1200, i in {3,4,5}: [(28, 3, 14), (244, 3, 122), (2188, 3, 1094), (28, 5, 14)]
+(3) strict, N0=21, J=1200, i=2: [(512, 2, 147), (2048, 2, 713)]

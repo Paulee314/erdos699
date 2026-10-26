@@ -1,0 +1,79 @@
+# Erdos #699 family check: every n = 2^k and n = 3^m+1 tested with w699_v2 on [n, n+1) (all i, all j).
+# S lines = strict near-misses; 'none' = no strict failure; cand = candidates tested exactly. Run 2026-10-24 in the cloud session.
+# The 2^41 hit was re-verified independently with Python (sympy factorint + Kummer carries).
+3^2+1 10 cand=1 S 10 3 5 p=i_divides_both(official_ok);
+2^4 16 cand=2 S 16 2 6 p=i_divides_both(official_ok);
+3^3+1 28 cand=3 S 28 3 14 p=i_divides_both(official_ok);S 28 5 14 p=i_divides_both(official_ok);
+2^5 32 cand=0 none
+2^6 64 cand=4 none
+3^4+1 82 cand=0 none
+2^7 128 cand=0 none
+3^5+1 244 cand=1 S 244 3 122 p=i_divides_both(official_ok);
+2^8 256 cand=14 none
+2^9 512 cand=6 S 512 2 147 p=i_divides_both(official_ok);
+3^6+1 730 cand=1 none
+2^10 1024 cand=4 none
+2^11 2048 cand=22 S 2048 2 713 p=i_divides_both(official_ok);
+3^7+1 2188 cand=7 S 2188 3 1094 p=i_divides_both(official_ok);
+2^12 4096 cand=96 none
+3^8+1 6562 cand=0 none
+2^13 8192 cand=0 none
+2^14 16384 cand=4 none
+3^9+1 19684 cand=1 none
+2^15 32768 cand=132 none
+3^10+1 59050 cand=0 none
+2^16 65536 cand=306 none
+2^17 131072 cand=0 none
+3^11+1 177148 cand=15 none
+2^18 262144 cand=748 none
+2^19 524288 cand=0 none
+3^12+1 531442 cand=0 none
+2^20 1048576 cand=4750 none
+3^13+1 1594324 cand=21 S 1594324 3 797162 p=i_divides_both(official_ok);
+2^21 2097152 cand=3385 none
+2^22 4194304 cand=6152 none
+3^14+1 4782970 cand=7 none
+2^23 8388608 cand=46 none
+3^15+1 14348908 cand=105 none
+2^24 16777216 cand=19966 none
+2^25 33554432 cand=7802 none
+3^16+1 43046722 cand=0 none
+2^26 67108864 cand=4 none
+3^17+1 129140164 cand=36 none
+2^27 134217728 cand=510 none
+2^28 268435456 cand=348 none
+3^18+1 387420490 cand=9 none
+2^29 536870912 cand=6570 none
+2^30 1073741824 cand=813985 none
+3^19+1 1162261468 cand=13 none
+2^31 2147483648 cand=0 none
+3^20+1 3486784402 cand=0 none
+2^32 4294967296 cand=65534 none
+2^33 8589934592 cand=14328 none
+3^21+1 10460353204 cand=45 none
+2^34 17179869184 cand=4 none
+3^22+1 31381059610 cand=1 none
+2^35 34359738368 cand=101056 none
+2^36 68719476736 cand=11139247 none
+3^23+1 94143178828 cand=19 none
+2^37 137438953472 cand=222 none
+2^38 274877906944 cand=4 none
+3^24+1 282429536482 cand=4023 none
+2^39 549755813888 cand=1480896 none
+3^25+1 847288609444 cand=0 none
+2^40 1099511627776 cand=17841685 none
+2^41 2199023255552 cand=13366 S 2199023255552 2 285920731515 p=i_divides_both(official_ok);
+3^26+1 2541865828330 cand=19 none
+2^42 4398046511104 cand=449584180 none
+3^27+1 7625597484988 cand=144000 none
+2^43 8796093022208 cand=4208742 none
+2^44 17592186044416 cand=763069773 none
+3^28+1 22876792454962 cand=4074 none
+2^45 35184372088832 cand=312058767 none
+3^29+1 68630377364884 cand=13 none
+2^46 70368744177664 cand=25183659 none
+2^47 140737488355328 cand=10611192 none
+3^30+1 205891132094650 cand=13275 none
+2^48 281474976710656 NOT_CHECKED (stopped: too slow in the cloud session)
+2^49 562949953421312 cand=126 none
+3^31+1 617673396283948 cand=0 none

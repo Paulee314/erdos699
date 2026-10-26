@@ -1,0 +1,11 @@
+# w699 lo=4 hi=10000000 threads=28 seg=4194304 primes<=100000
+S 10 3 5 p=i_divides_both(official_ok)
+S 16 2 6 p=i_divides_both(official_ok)
+S 28 3 14 p=i_divides_both(official_ok)
+S 28 5 14 p=i_divides_both(official_ok)
+S 244 3 122 p=i_divides_both(official_ok)
+S 512 2 147 p=i_divides_both(official_ok)
+S 2048 2 713 p=i_divides_both(official_ok)
+S 2188 3 1094 p=i_divides_both(official_ok)
+S 1594324 3 797162 p=i_divides_both(official_ok)
+# done [4, 10000000) elapsed=0.7s failures=9 cand=64658126 exact=5221598 slow=259121

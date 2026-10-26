@@ -1,0 +1,11 @@
+entries: 16223 distinct: 16223
+entries failing P(x^2-1)<100: 0 []
+x in [2,98] missing from list: []
+min x: 2 max x: 19182937474703818751
+centers x with x-1,x,x+1 all 97-smooth: 787
+largest centers: [7496644, 7534241, 15473809, 43184401, 407498959]
+maximal runs of >=3 consecutive 97-smooth ints: 483 ; longest: 100
+n values (=x+1) total: 787  with n//2 >= 4: 782
+triples tested: 3218514
+counterexamples (no prime >= i): []
+strict near-misses (no prime > i): [(10, 3, 5, [3]), (28, 3, 14, [3]), (28, 5, 14, [5])]

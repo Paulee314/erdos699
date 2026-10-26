@@ -1,0 +1,10 @@
+Independent re-run of three checkpoint blocks on a different machine and compiler (Oct 26 2026):
+Linux x86-64 cloud container, gcc -O3 -march=native, THREADS = all cores, SEG=1000000.
+The checkpoints themselves were produced on an Apple M-series Mac Studio with clang.
+
+command: CERTFILE=blk.txt SEG=1000000 LOGSEC=1e9 ./w699_v3 lo hi
+
+block                               checkpoint line (from results/)                         re-run       time
+[127000000000+5e6, +1e6)            B 127005000000 127006000000 921668 315236755 224 0      identical    21 s
+[999999000000, 10^12)               B 999999000000 1000000000000 927199 742018228 119 0     identical    50 s
+[55000000000, 55001000000)          B 55000000000 55001000000 918980 246113355 460 0        identical    16 s

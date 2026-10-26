@@ -1,0 +1,7 @@
+numbers: 16223 distinct: 16223 max: 19182937474703818751
+entries with P(x^2-1) >= 100: 0
+runs of three consecutive 97-smooth integers (top n): 787  largest n: 407498960
+brute-force runs up to 2000000 : 772  match list: True
+triples checked: 3218514
+strict near-misses (no prime > i shared), j <= 100: [(10, 3, 5), (28, 3, 14), (28, 5, 14)]
+COUNTEREXAMPLES: []
