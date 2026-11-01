@@ -144,7 +144,8 @@ The Luca–Najman lists are not included here. Download `oddsort.txt` and `evens
 
 ## Near-miss families (`fam2/`)
 
-Every known near-miss has n = 2^k (with i = 2) or n = 3^m + 1 (with i = 3). `fam2/onen.c` and `onen.py` find every
+Every known near-miss has n = 2^k with i = 2, or n = 3^m + 1 with i = 3, with one exception: (28, 5, 14), where
+n = 3^3 + 1 but i = 5 (28 also has the i = 3 near-miss (28, 3, 14)). `fam2/onen.c` and `onen.py` find every
 near-miss for a single n, all i and all j. They checked every 2^k with k ≤ 62 and every 3^m + 1 with m ≤ 39, up to
 about 4.6 × 10^18. The only one beyond 10^7 is (2^41, 2, 285,920,731,515). Here 2^41 − 1 = 13,367 × 164,511,353,
 and neither prime divides C(2^41, 285,920,731,515). `fam2/README.txt` describes the validation against brute force.
